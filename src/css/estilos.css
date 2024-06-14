@@ -1,6 +1,6 @@
 body {
     font-family: 'Outfit', sans-serif;
-    background-image: url(../img/fundo-base.jpg);
+    background-image: url("../img/star-wars-backgrounds-25-_2_b6196d7d.png");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100%;
@@ -12,7 +12,7 @@ body {
 }
 
 .cabecalho {
-    color: #f1ecff;
+    color: #ffffff;
     font-size: 45px;
     letter-spacing: 10px;
     text-transform: uppercase;
@@ -50,7 +50,8 @@ body {
 }
 
 .btn-seta:hover {
-    background-color: #8351fe;
+    background-color:#C0C0C0;
+    opacity: 7;
 }
 
 .cartao {
@@ -73,12 +74,13 @@ body {
 
 .cartao .imagem-personagem {
     width: 100%;
+    height: 50%;
     max-height: 280px;
 }
 
 .cartao .nome {
-    background-color: rgba(179, 177, 185, 0.7);
-    padding: 8px 10px;
+    
+    padding: 10px 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     color: #ffffff;
@@ -88,7 +90,8 @@ body {
 }
 
 .cartao .descricao {
-    background-color: rgba(225, 225, 225, 0.8);
+    background-color: #ffffff;
+    opacity: 4;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -106,28 +109,29 @@ body {
     text-align: justify;
     max-height: 110px;
     overflow-y: auto;
+    color: #000;
 }
 
 .cartao.fundo-1 {
-    background: url("../img/fundo-1.jpg") no-repeat;
+    background: url("../img/Vaders_Castle_FDKF.webp") no-repeat;
 }
 
 .cartao.fundo-2 {
-    background: url("../img/fundo-2.jpg") no-repeat;
+    background: url("../img/Dagobah\ \(Star\ Wars\).jfif") no-repeat;
 }
 
 .cartao.fundo-3 {
-    background: url("../img/fundo-3.jpg") no-repeat;
+    background: url("../img/fundo-ashoka.jpg") no-repeat;
 }
 
 .cartao.fundo-4 {
-    background: url("../img/fundo-4.jpg") no-repeat;
+    background: url("../img/Fundo-obi-wan.jpg") no-repeat;
 }
 
 .cartao.fundo-5 {
-    background: url("../img/fundo-5.jpg") no-repeat;
+    background: url("../img/fundo-r2.jpg") no-repeat;
 }
 
 .cartao.fundo-6 {
-    background: url("../img/fundo-6.jpg") no-repeat;
+    background: url("../img/fundo-sidious.jpg") no-repeat;
 }
